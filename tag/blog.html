@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Data Science - Paul's Thoughts</title>
+    <title>blog - Paul's Thoughts</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
 
 
     <meta name="author" content="Paul Mendes" />
-    <meta name="keywords" content="Data Science" />
+    <meta name="keywords" content="blog" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="Paul's Thoughts" />
@@ -27,6 +27,7 @@
     <link href="https://grilledchickenthighs.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="https://grilledchickenthighs.github.io/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="https://grilledchickenthighs.github.io/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="https://grilledchickenthighs.github.io/theme/css/style.css" type="text/css"/>
 
         <link href="https://grilledchickenthighs.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
@@ -34,8 +35,6 @@
 
 
 
-        <link href="https://grilledchickenthighs.github.io/feeds/data-science.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Paul's Thoughts Data Science ATOM Feed"/>
 
 </head>
 <body>
@@ -55,13 +54,18 @@ Paul's Thoughts            </a>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                         <li >
-                            <a href="https://grilledchickenthighs.github.io/category/posts.html">Posts</a>
+                            <a href="https://grilledchickenthighs.github.io/category/notebooks.html">Notebooks</a>
                         </li>
-                        <li class="active">
-                            <a href="https://grilledchickenthighs.github.io/category/data-science.html">Data science</a>
+                        <li >
+                            <a href="https://grilledchickenthighs.github.io/category/example-posts.html">Example posts</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -76,9 +80,16 @@ Paul's Thoughts            </a>
     <div class="row">
         <div class="col-sm-9">
             <article>
-                <h2><a href="https://grilledchickenthighs.github.io/Second-post.html">Second Post</a></h2>
-                <div class="summary"><p>Just a test.</p>
-                    <a class="btn btn-default btn-xs" href="https://grilledchickenthighs.github.io/Second-post.html">more ...</a>
+                <h2><a href="https://grilledchickenthighs.github.io/first-post.html">First Post - Part 1</a></h2>
+                <div class="summary"><p>This is the first post of a series of demonstration posts.</p>
+                    <a class="btn btn-default btn-xs" href="https://grilledchickenthighs.github.io/first-post.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://grilledchickenthighs.github.io/second-post.html">Second Post - Part 2</a></h2>
+                <div class="summary"><p>This is the second post of a series of posts. It will show series and an embeded youtube video.</p>
+                    <a class="btn btn-default btn-xs" href="https://grilledchickenthighs.github.io/second-post.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -88,7 +99,7 @@ Paul's Thoughts            </a>
             <aside>
 <div id="aboutme">
         <p>
-            <img width="100%" class="img-thumbnail" src="https://grilledchickenthighs.github.io/theme/images/me400x400.png"/>
+            <img width="100%" class="img-thumbnail" src="https://grilledchickenthighs.github.io/images/me400x400.png"/>
         </p>
 </div><!-- Sidebar -->
 <section class="well well-sm">
@@ -108,17 +119,26 @@ Paul's Thoughts            </a>
 <li class="list-group-item">
   <a href="https://grilledchickenthighs.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
   <ul class="list-group " id="tags">
-    <li class="list-group-item tag-4">
-      <a href="https://grilledchickenthighs.github.io/tag/apples.html">apples</a>
+    <li class="list-group-item tag-1">
+      <a href="https://grilledchickenthighs.github.io/tag/pelican.html">pelican</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="https://grilledchickenthighs.github.io/tag/blog.html">blog</a>
+    </li>
+    <li class="list-group-item tag-1">
+      <a href="https://grilledchickenthighs.github.io/tag/python.html">python</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="https://grilledchickenthighs.github.io/tag/data-science.html">Data Science</a>
+      <a href="https://grilledchickenthighs.github.io/tag/python-firsts.html">python firsts</a>
+    </li>
+    <li class="list-group-item tag-4">
+      <a href="https://grilledchickenthighs.github.io/tag/apples.html">apples</a>
     </li>
     <li class="list-group-item tag-4">
       <a href="https://grilledchickenthighs.github.io/tag/oranges.html">oranges</a>
     </li>
     <li class="list-group-item tag-4">
-      <a href="https://grilledchickenthighs.github.io/tag/python-firsts.html">python firsts</a>
+      <a href="https://grilledchickenthighs.github.io/tag/data-science.html">Data Science</a>
     </li>
   </ul>
 </li>
@@ -135,7 +155,7 @@ Paul's Thoughts            </a>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 Paul Mendes
+         <div class="col-xs-10">&copy; 2017 Paul Mendes
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
