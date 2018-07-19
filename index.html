@@ -43,11 +43,29 @@
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a href="./" class="navbar-brand">
 <img class="img-responsive pull-left gap-right" src="./theme/images/me400x400.png" width="20"/>             </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
+                         <li><a href="./pages/about.html">
+                             About
+                          </a></li>
+                         <li><a href="./pages/course.html">
+                             Course
+                          </a></li>
+                        <li >
+                            <a href="./category/example-posts.html">Example posts</a>
+                        </li>
+                        <li >
+                            <a href="./category/notebooks.html">Notebooks</a>
+                        </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><span>
@@ -80,7 +98,96 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-9">
+            <article>
+                <h2><a href="./first-post.html">First Post - Part 1</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-11-30T12:40:00-05:00"> Thu 30 November 2017</time>
+    </span>
 
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/python.html">python</a>
+        /
+	<a href="./tag/pelican.html">pelican</a>
+        /
+	<a href="./tag/blog.html">blog</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>This is the first post of a series of demonstration posts.</p>
+                    <a class="btn btn-default btn-xs" href="./first-post.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./fourth-post.html">Fourth Post - Part 4</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-11-30T12:40:00-05:00"> Thu 30 November 2017</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/python.html">python</a>
+        /
+	<a href="./tag/pelican.html">pelican</a>
+        /
+	<a href="./tag/blog.html">blog</a>
+        /
+	<a href="./tag/tables.html">tables</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>This is the fourth post of a series of posts. It will demonstrate tables.</p>
+                    <a class="btn btn-default btn-xs" href="./fourth-post.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="./second-post.html">Second Post - Part 2</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-11-30T12:40:00-05:00"> Thu 30 November 2017</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/python.html">python</a>
+        /
+	<a href="./tag/pelican.html">pelican</a>
+        /
+	<a href="./tag/blog.html">blog</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>This is the second post of a series of posts. It will show series and an embeded youtube video.</p>
+                    <a class="btn btn-default btn-xs" href="./second-post.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        <ul class="pagination">
+                <li class="prev disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a
+                            href="./index.html">1</a></li>
+                    <li class=""><a
+                            href="./index2.html">2</a></li>
+                <li class="next"><a
+                        href="./index2.html">&raquo;</a></li>
+        </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -110,6 +217,11 @@
 <li class="list-group-item">
   <h4>Recent Posts</h4>
   <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="./first-post.html">First Post - Part 1</a></li>
+    <li class="list-group-item"><a href="./fourth-post.html">Fourth Post - Part 4</a></li>
+    <li class="list-group-item"><a href="./second-post.html">Second Post - Part 2</a></li>
+    <li class="list-group-item"><a href="./first-notebook.html">First Post</a></li>
+    <li class="list-group-item"><a href="./second-notebook.html">Second Post</a></li>
   </ul>
 </li>
 <!-- End Sidebar/Recent Posts -->
@@ -118,6 +230,12 @@
 <li class="list-group-item">
   <h4>Categories</h4>
   <ul class="list-group" id="categories">
+    <li class="list-group-item">
+      <a href="./category/example-posts.html">example posts</a>
+    </li>
+    <li class="list-group-item">
+      <a href="./category/notebooks.html">Notebooks</a>
+    </li>
   </ul>
 </li>
 <!-- End Sidebar/Categories -->
@@ -143,7 +261,7 @@
    <div class="container-fluid">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy;  Paul D. Mendes
+         <div class="col-xs-10">&copy; 2017 Paul D. Mendes
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
