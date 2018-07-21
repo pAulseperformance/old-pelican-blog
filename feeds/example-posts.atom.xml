@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Careful Considerations</title><link href="https://grilledchickenthighs.github.io/" rel="alternate"></link><link href="https://grilledchickenthighs.github.io/feeds/example-posts.atom.xml" rel="self"></link><id>https://grilledchickenthighs.github.io/</id><updated>2017-11-30T12:40:00-05:00</updated><entry><title>First Post - Part 1</title><link href="https://grilledchickenthighs.github.io/first-post.html" rel="alternate"></link><published>2017-11-30T12:40:00-05:00</published><updated>2017-11-30T12:40:00-05:00</updated><author><name>Paul D. Mendes</name></author><id>tag:grilledchickenthighs.github.io,2017-11-30:first-post.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="https://grilledchickenthighs.github.io/images/me400x400.png" /&gt;&lt;/p&gt;
+&lt;!-- ![Photo]({attach}/images/me400x400.png) --&gt;
+
+&lt;p&gt;&lt;img alt="Alt Text" src="{filename}/pdfs/DataAnalyst.pdf" /&gt;&lt;/p&gt;</summary><category term="python"></category><category term="pelican"></category><category term="blog"></category></entry></feed>
