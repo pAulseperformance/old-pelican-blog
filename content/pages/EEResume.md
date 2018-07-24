@@ -1,0 +1,17 @@
+Status: Hidden
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curriculum Vitae</title>
+        <meta name="tags" content="resume" />
+        <meta name="date" content="2018-07-20 22:28" />
+        <meta name="modified" content="2018-07-20 23:14" />
+        <!-- <meta name="Sa" -->
+        <!-- <meta name="category" content="yeah" /> -->
+        <meta name="authors" content="Paul D. Mendes" />
+        <meta name="summary" content="My CV" />
+  </head>
+  <body>
+    <embed src="/pdfs/EECV.pdf" width="920px" height="900px" />
+  </body>
+</html>
