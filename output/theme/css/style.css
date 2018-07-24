@@ -178,14 +178,14 @@ figure.floatcenter, .align-center {
     background-size: cover;
     background-color: #C4C4C4;
     margin: 0 0 20px;
-    padding: 70px 0; /*controls padding around inner text*/
+    padding: 0px 0; /*controls padding around inner text*/
     position: relative;
 }
 
 #banner .copy {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    background: none;
     display: inline;
-    float: left;
+    float: none;
     max-width: 600px;
     padding: 20px;
     position: relative;
@@ -195,7 +195,7 @@ figure.floatcenter, .align-center {
 #banner h1 {
     color: #fff;
     font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 60px;
+    font-size: 44px;
     font-stretch: condensed;
     font-weight: 700;
     line-height: 0.9;

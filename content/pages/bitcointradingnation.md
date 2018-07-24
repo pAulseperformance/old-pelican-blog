@@ -1,4 +1,5 @@
 Title: Course
+Status: hidden
 ### Coming soon
 
 Course: **Bitcoin Trading For Beginners**
