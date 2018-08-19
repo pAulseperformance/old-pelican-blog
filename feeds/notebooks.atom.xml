@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>paulse</title><link href="https://grilledchickenthighs.github.io/" rel="alternate"></link><link href="https://grilledchickenthighs.github.io/feeds/notebooks.atom.xml" rel="self"></link><id>https://grilledchickenthighs.github.io/</id><updated>2018-08-19T20:00:00-04:00</updated><entry><title>Blockchain Exploration</title><link href="https://grilledchickenthighs.github.io/jupyter-notebook.html" rel="alternate"></link><published>2018-08-19T20:00:00-04:00</published><updated>2018-08-19T20:00:00-04:00</updated><author><name>Paul D. Mendes</name></author><id>tag:grilledchickenthighs.github.io,2018-08-19:jupyter-notebook.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>paulse</title><link href="https://grilledchickenthighs.github.io/" rel="alternate"></link><link href="https://grilledchickenthighs.github.io/feeds/notebooks.atom.xml" rel="self"></link><id>https://grilledchickenthighs.github.io/</id><updated>2018-08-19T20:00:00-04:00</updated><entry><title>Blockchain Exploration</title><link href="https://grilledchickenthighs.github.io/jupyter-notebook.html" rel="alternate"></link><published>2018-08-19T20:00:00-04:00</published><updated>2018-08-19T20:00:00-04:00</updated><author><name>Paul Daneil Mendes</name></author><id>tag:grilledchickenthighs.github.io,2018-08-19:jupyter-notebook.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -23,6 +23,7 @@
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Summary"&gt;Summary&lt;a class="anchor-link" href="#Summary"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This was my first time-series EDA and I went through many iterations as I learned new techniques and different approaches. Much of it is exploratory, some of it might be wrong, though I did my best to check assumptions and procedures. Hopefully, none of it is wrong, but you can call me out if so.&lt;/p&gt;
 &lt;p&gt;We didn't find anything conclusive, but we have a much better understanding of bitcoins network as well as some other interesting areas to look for our next analysis.&lt;/p&gt;
+&lt;p&gt;If you'd like to fork this notebook, the code is available &lt;a href="https://github.com/GrilledChickenThighs/jupyter-notebooks"&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
